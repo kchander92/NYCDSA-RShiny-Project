@@ -1,203 +1,206 @@
 ﻿Day of Year,Year of Period End,Duration,Region Name,Region Type,Period Begin,Period End,adjusted_average_new_listings,adjusted_average_new_listings_yoy,Average New Listings Yoy (tooltip)
-5,2020,4 weeks,"Phoenix, AZ metro area",metro,12/9/2019,1/5/2020,1156,-0.118230359,-11.80%
-12,2020,4 weeks,"Phoenix, AZ metro area",metro,12/16/2019,1/12/2020,1302,-0.133155792,-13.30%
-19,2020,4 weeks,"Phoenix, AZ metro area",metro,12/23/2019,1/19/2020,1545,-0.139755011,-14.00%
-26,2020,4 weeks,"Phoenix, AZ metro area",metro,12/30/2019,1/26/2020,1854,-0.12505899,-12.50%
-33,2020,4 weeks,"Phoenix, AZ metro area",metro,1/6/2020,2/2/2020,2012,-0.115215479,-11.50%
-40,2020,4 weeks,"Phoenix, AZ metro area",metro,1/13/2020,2/9/2020,2046,-0.097087379,-9.70%
-47,2020,4 weeks,"Phoenix, AZ metro area",metro,1/20/2020,2/16/2020,2024,-0.087054578,-8.70%
-54,2020,4 weeks,"Phoenix, AZ metro area",metro,1/27/2020,2/23/2020,2043,-0.0510915,-5.10%
-61,2020,4 weeks,"Phoenix, AZ metro area",metro,2/3/2020,3/1/2020,2084,-0.032497679,-3.20%
-68,2020,4 weeks,"Phoenix, AZ metro area",metro,2/10/2020,3/8/2020,2128,-0.032287403,-3.20%
-75,2020,4 weeks,"Phoenix, AZ metro area",metro,2/17/2020,3/15/2020,2128,-0.041441441,-4.10%
-82,2020,4 weeks,"Phoenix, AZ metro area",metro,2/24/2020,3/22/2020,2277,-0.005676856,-0.60%
-89,2020,4 weeks,"Phoenix, AZ metro area",metro,3/2/2020,3/29/2020,2368,0.03768624,3.80%
-96,2020,4 weeks,"Phoenix, AZ metro area",metro,3/9/2020,4/5/2020,2337,-0.003411514,-0.30%
-103,2020,4 weeks,"Phoenix, AZ metro area",metro,3/16/2020,4/12/2020,2304,-0.032745592,-3.30%
-110,2020,4 weeks,"Phoenix, AZ metro area",metro,3/23/2020,4/19/2020,2083,-0.119983101,-12.00%
-117,2020,4 weeks,"Phoenix, AZ metro area",metro,3/30/2020,4/26/2020,1899,-0.197379544,-19.70%
-124,2020,4 weeks,"Phoenix, AZ metro area",metro,4/6/2020,5/3/2020,1793,-0.209086899,-20.90%
-131,2020,4 weeks,"Phoenix, AZ metro area",metro,4/13/2020,5/10/2020,1777,-0.197742664,-19.80%
-138,2020,4 weeks,"Phoenix, AZ metro area",metro,4/20/2020,5/17/2020,1798,-0.196244971,-19.60%
-145,2020,4 weeks,"Phoenix, AZ metro area",metro,4/27/2020,5/24/2020,1821,-0.176390773,-17.60%
-152,2020,4 weeks,"Phoenix, AZ metro area",metro,5/4/2020,5/31/2020,1784,-0.155702792,-15.60%
-159,2020,4 weeks,"Phoenix, AZ metro area",metro,5/11/2020,6/7/2020,1787,-0.142102736,-14.20%
-166,2020,4 weeks,"Phoenix, AZ metro area",metro,5/18/2020,6/14/2020,1805,-0.108201581,-10.80%
-173,2020,4 weeks,"Phoenix, AZ metro area",metro,5/25/2020,6/21/2020,1805,-0.085612969,-8.60%
-180,2020,4 weeks,"Phoenix, AZ metro area",metro,6/1/2020,6/28/2020,1872,-0.059296482,-5.90%
-187,2020,4 weeks,"Phoenix, AZ metro area",metro,6/8/2020,7/5/2020,1851,-0.012273212,-1.20%
-194,2020,4 weeks,"Phoenix, AZ metro area",metro,6/15/2020,7/12/2020,1876,0.007518797,0.80%
-201,2020,4 weeks,"Phoenix, AZ metro area",metro,6/22/2020,7/19/2020,1945,0.066922655,6.70%
-208,2020,4 weeks,"Phoenix, AZ metro area",metro,6/29/2020,7/26/2020,1990,0.121126761,12.10%
-215,2020,4 weeks,"Phoenix, AZ metro area",metro,7/6/2020,8/2/2020,2067,0.108310992,10.80%
-222,2020,4 weeks,"Phoenix, AZ metro area",metro,7/13/2020,8/9/2020,2155,0.169923996,17.00%
-229,2020,4 weeks,"Phoenix, AZ metro area",metro,7/20/2020,8/16/2020,2187,0.160828025,16.10%
-236,2020,4 weeks,"Phoenix, AZ metro area",metro,7/27/2020,8/23/2020,2211,0.153364632,15.30%
-243,2020,4 weeks,"Phoenix, AZ metro area",metro,8/3/2020,8/30/2020,2267,0.184430512,18.40%
-250,2020,4 weeks,"Phoenix, AZ metro area",metro,8/10/2020,9/6/2020,2291,0.180927835,18.10%
-257,2020,4 weeks,"Phoenix, AZ metro area",metro,8/17/2020,9/13/2020,2275,0.168464304,16.80%
-264,2020,4 weeks,"Phoenix, AZ metro area",metro,8/24/2020,9/20/2020,2316,0.15857929,15.90%
-271,2020,4 weeks,"Phoenix, AZ metro area",metro,8/31/2020,9/27/2020,2290,0.148445336,14.80%
-278,2020,4 weeks,"Phoenix, AZ metro area",metro,9/7/2020,10/4/2020,2290,0.106280193,10.60%
-285,2020,4 weeks,"Phoenix, AZ metro area",metro,9/14/2020,10/11/2020,2345,0.129032258,12.90%
-292,2020,4 weeks,"Phoenix, AZ metro area",metro,9/21/2020,10/18/2020,2328,0.13229572,13.20%
-299,2020,4 weeks,"Phoenix, AZ metro area",metro,9/28/2020,10/25/2020,2331,0.144891945,14.50%
-306,2020,4 weeks,"Phoenix, AZ metro area",metro,10/5/2020,11/1/2020,2225,0.142197125,14.20%
-313,2020,4 weeks,"Phoenix, AZ metro area",metro,10/12/2020,11/8/2020,2120,0.115202525,11.50%
-320,2020,4 weeks,"Phoenix, AZ metro area",metro,10/19/2020,11/15/2020,2046,0.10534846,10.50%
-327,2020,4 weeks,"Phoenix, AZ metro area",metro,10/26/2020,11/22/2020,1960,0.101742552,10.20%
-334,2020,4 weeks,"Phoenix, AZ metro area",metro,11/2/2020,11/29/2020,1769,0.123174603,12.30%
-341,2020,4 weeks,"Phoenix, AZ metro area",metro,11/9/2020,12/6/2020,1698,0.138069705,13.80%
-348,2020,4 weeks,"Phoenix, AZ metro area",metro,11/16/2020,12/13/2020,1615,0.155221745,15.50%
-355,2020,4 weeks,"Phoenix, AZ metro area",metro,11/23/2020,12/20/2020,1513,0.158499234,15.80%
-362,2020,4 weeks,"Phoenix, AZ metro area",metro,11/30/2020,12/27/2020,1418,0.174813587,17.50%
-3,2021,4 weeks,"Phoenix, AZ metro area",metro,12/7/2020,1/3/2021,1272,0.100346021,10.00%
-10,2021,4 weeks,"Phoenix, AZ metro area",metro,12/14/2020,1/10/2021,1334,0.024577573,2.50%
-17,2021,4 weeks,"Phoenix, AZ metro area",metro,12/21/2020,1/17/2021,1442,-0.066666667,-6.70%
-24,2021,4 weeks,"Phoenix, AZ metro area",metro,12/28/2020,1/24/2021,1731,-0.066343042,-6.60%
-31,2021,4 weeks,"Phoenix, AZ metro area",metro,1/4/2021,1/31/2021,1925,-0.043240557,-4.30%
-38,2021,4 weeks,"Phoenix, AZ metro area",metro,1/11/2021,2/7/2021,1970,-0.03714565,-3.70%
-45,2021,4 weeks,"Phoenix, AZ metro area",metro,1/18/2021,2/14/2021,2001,-0.011363636,-1.10%
-52,2021,4 weeks,"Phoenix, AZ metro area",metro,1/25/2021,2/21/2021,2015,-0.013705335,-1.40%
-59,2021,4 weeks,"Phoenix, AZ metro area",metro,2/1/2021,2/28/2021,2077,-0.003358925,-0.30%
-66,2021,4 weeks,"Phoenix, AZ metro area",metro,2/8/2021,3/7/2021,2144,0.007518797,0.80%
-73,2021,4 weeks,"Phoenix, AZ metro area",metro,2/15/2021,3/14/2021,2204,0.035714286,3.60%
-80,2021,4 weeks,"Phoenix, AZ metro area",metro,2/22/2021,3/21/2021,2240,-0.016249451,-1.60%
-87,2021,4 weeks,"Phoenix, AZ metro area",metro,3/1/2021,3/28/2021,2273,-0.040118243,-4.00%
-94,2021,4 weeks,"Phoenix, AZ metro area",metro,3/8/2021,4/4/2021,2229,-0.046213094,-4.60%
-101,2021,4 weeks,"Phoenix, AZ metro area",metro,3/15/2021,4/11/2021,2251,-0.023003472,-2.30%
-108,2021,4 weeks,"Phoenix, AZ metro area",metro,3/22/2021,4/18/2021,2288,0.098415747,9.80%
-115,2021,4 weeks,"Phoenix, AZ metro area",metro,3/29/2021,4/25/2021,2275,0.197998947,19.80%
-122,2021,4 weeks,"Phoenix, AZ metro area",metro,4/5/2021,5/2/2021,2342,0.306190742,30.60%
-129,2021,4 weeks,"Phoenix, AZ metro area",metro,4/12/2021,5/9/2021,2302,0.295441756,29.50%
-136,2021,4 weeks,"Phoenix, AZ metro area",metro,4/19/2021,5/16/2021,2281,0.268631813,26.90%
-143,2021,4 weeks,"Phoenix, AZ metro area",metro,4/26/2021,5/23/2021,2294,0.259747392,26.00%
-150,2021,4 weeks,"Phoenix, AZ metro area",metro,5/3/2021,5/30/2021,2223,0.246076233,24.60%
-157,2021,4 weeks,"Phoenix, AZ metro area",metro,5/10/2021,6/6/2021,2203,0.232792389,23.30%
-164,2021,4 weeks,"Phoenix, AZ metro area",metro,5/17/2021,6/13/2021,2231,0.23601108,23.60%
-171,2021,4 weeks,"Phoenix, AZ metro area",metro,5/24/2021,6/20/2021,2220,0.229916898,23.00%
-178,2021,4 weeks,"Phoenix, AZ metro area",metro,5/31/2021,6/27/2021,2265,0.209935897,21.00%
-185,2021,4 weeks,"Phoenix, AZ metro area",metro,6/7/2021,7/4/2021,2229,0.204213938,20.40%
-192,2021,4 weeks,"Phoenix, AZ metro area",metro,6/14/2021,7/11/2021,2184,0.164179104,16.40%
-199,2021,4 weeks,"Phoenix, AZ metro area",metro,6/21/2021,7/18/2021,2202,0.132133676,13.20%
-206,2021,4 weeks,"Phoenix, AZ metro area",metro,6/28/2021,7/25/2021,2180,0.095477387,9.50%
-213,2021,4 weeks,"Phoenix, AZ metro area",metro,7/5/2021,8/1/2021,2252,0.089501693,9.00%
-220,2021,4 weeks,"Phoenix, AZ metro area",metro,7/12/2021,8/8/2021,2289,0.062180974,6.20%
-227,2021,4 weeks,"Phoenix, AZ metro area",metro,7/19/2021,8/15/2021,2275,0.040237769,4.00%
-234,2021,4 weeks,"Phoenix, AZ metro area",metro,7/26/2021,8/22/2021,2279,0.030755314,3.10%
-241,2021,4 weeks,"Phoenix, AZ metro area",metro,8/2/2021,8/29/2021,2278,0.004852228,0.50%
-248,2021,4 weeks,"Phoenix, AZ metro area",metro,8/9/2021,9/5/2021,2236,-0.024006984,-2.40%
-255,2021,4 weeks,"Phoenix, AZ metro area",metro,8/16/2021,9/12/2021,2191,-0.036923077,-3.70%
-262,2021,4 weeks,"Phoenix, AZ metro area",metro,8/23/2021,9/19/2021,2168,-0.063903282,-6.40%
-269,2021,4 weeks,"Phoenix, AZ metro area",metro,8/30/2021,9/26/2021,2119,-0.074672489,-7.50%
-276,2021,4 weeks,"Phoenix, AZ metro area",metro,9/6/2021,10/3/2021,2124,-0.072489083,-7.20%
-283,2021,4 weeks,"Phoenix, AZ metro area",metro,9/13/2021,10/10/2021,2156,-0.080597015,-8.10%
-290,2021,4 weeks,"Phoenix, AZ metro area",metro,9/20/2021,10/17/2021,2144,-0.079037801,-7.90%
-297,2021,4 weeks,"Phoenix, AZ metro area",metro,9/27/2021,10/24/2021,2156,-0.075075075,-7.50%
-304,2021,4 weeks,"Phoenix, AZ metro area",metro,10/4/2021,10/31/2021,2091,-0.060224719,-6.00%
-311,2021,4 weeks,"Phoenix, AZ metro area",metro,10/11/2021,11/7/2021,2072,-0.022641509,-2.30%
-318,2021,4 weeks,"Phoenix, AZ metro area",metro,10/18/2021,11/14/2021,2075,0.014173998,1.40%
-325,2021,4 weeks,"Phoenix, AZ metro area",metro,10/25/2021,11/21/2021,1996,0.018367347,1.80%
-332,2021,4 weeks,"Phoenix, AZ metro area",metro,11/1/2021,11/28/2021,1815,0.026003392,2.60%
-339,2021,4 weeks,"Phoenix, AZ metro area",metro,11/8/2021,12/5/2021,1751,0.031213192,3.10%
-346,2021,4 weeks,"Phoenix, AZ metro area",metro,11/15/2021,12/12/2021,1631,0.009907121,1.00%
-353,2021,4 weeks,"Phoenix, AZ metro area",metro,11/22/2021,12/19/2021,1545,0.021150033,2.10%
-360,2021,4 weeks,"Phoenix, AZ metro area",metro,11/29/2021,12/26/2021,1467,0.034555712,3.50%
-2,2022,4 weeks,"Phoenix, AZ metro area",metro,12/6/2021,1/2/2022,1278,0.004716981,0.50%
-9,2022,4 weeks,"Phoenix, AZ metro area",metro,12/13/2021,1/9/2022,1310,-0.017991004,-1.80%
-16,2022,4 weeks,"Phoenix, AZ metro area",metro,12/20/2021,1/16/2022,1434,-0.00554785,-0.60%
-23,2022,4 weeks,"Phoenix, AZ metro area",metro,12/27/2021,1/23/2022,1685,-0.026574235,-2.70%
-30,2022,4 weeks,"Phoenix, AZ metro area",metro,1/3/2022,1/30/2022,1910,-0.007792208,-0.80%
-37,2022,4 weeks,"Phoenix, AZ metro area",metro,1/10/2022,2/6/2022,2012,0.021319797,2.10%
-44,2022,4 weeks,"Phoenix, AZ metro area",metro,1/17/2022,2/13/2022,1998,-0.00149925,-0.10%
-51,2022,4 weeks,"Phoenix, AZ metro area",metro,1/24/2022,2/20/2022,2025,0.004962779,0.50%
-58,2022,4 weeks,"Phoenix, AZ metro area",metro,1/31/2022,2/27/2022,2012,-0.031295137,-3.10%
-65,2022,4 weeks,"Phoenix, AZ metro area",metro,2/7/2022,3/6/2022,2039,-0.048973881,-4.90%
-72,2022,4 weeks,"Phoenix, AZ metro area",metro,2/14/2022,3/13/2022,2080,-0.056261343,-5.60%
-79,2022,4 weeks,"Phoenix, AZ metro area",metro,2/21/2022,3/20/2022,2103,-0.061160714,-6.10%
-86,2022,4 weeks,"Phoenix, AZ metro area",metro,2/28/2022,3/27/2022,2158,-0.050593929,-5.10%
-93,2022,4 weeks,"Phoenix, AZ metro area",metro,3/7/2022,4/3/2022,2150,-0.035441902,-3.50%
-100,2022,4 weeks,"Phoenix, AZ metro area",metro,3/14/2022,4/10/2022,2203,-0.021323856,-2.10%
-107,2022,4 weeks,"Phoenix, AZ metro area",metro,3/21/2022,4/17/2022,2214,-0.032342657,-3.20%
-114,2022,4 weeks,"Phoenix, AZ metro area",metro,3/28/2022,4/24/2022,2254,-0.009230769,-0.90%
-121,2022,4 weeks,"Phoenix, AZ metro area",metro,4/4/2022,5/1/2022,2323,-0.008112724,-0.80%
-128,2022,4 weeks,"Phoenix, AZ metro area",metro,4/11/2022,5/8/2022,2367,0.028236316,2.80%
-135,2022,4 weeks,"Phoenix, AZ metro area",metro,4/18/2022,5/15/2022,2489,0.091188075,9.10%
-142,2022,4 weeks,"Phoenix, AZ metro area",metro,4/25/2022,5/22/2022,2541,0.107672188,10.80%
-149,2022,4 weeks,"Phoenix, AZ metro area",metro,5/2/2022,5/29/2022,2553,0.148448043,14.80%
-156,2022,4 weeks,"Phoenix, AZ metro area",metro,5/9/2022,6/5/2022,2565,0.16432138,16.40%
-163,2022,4 weeks,"Phoenix, AZ metro area",metro,5/16/2022,6/12/2022,2547,0.14164052,14.20%
-170,2022,4 weeks,"Phoenix, AZ metro area",metro,5/23/2022,6/19/2022,2589,0.166216216,16.60%
-177,2022,4 weeks,"Phoenix, AZ metro area",metro,5/30/2022,6/26/2022,2613,0.153642384,15.40%
-184,2022,4 weeks,"Phoenix, AZ metro area",metro,6/6/2022,7/3/2022,2568,0.152086137,15.20%
-191,2022,4 weeks,"Phoenix, AZ metro area",metro,6/13/2022,7/10/2022,2473,0.132326007,13.20%
-198,2022,4 weeks,"Phoenix, AZ metro area",metro,6/20/2022,7/17/2022,2388,0.084468665,8.40%
-205,2022,4 weeks,"Phoenix, AZ metro area",metro,6/27/2022,7/24/2022,2307,0.058256881,5.80%
-212,2022,4 weeks,"Phoenix, AZ metro area",metro,7/4/2022,7/31/2022,2250,-0.000888099,-0.10%
-219,2022,4 weeks,"Phoenix, AZ metro area",metro,7/11/2022,8/7/2022,2249,-0.01747488,-1.70%
-226,2022,4 weeks,"Phoenix, AZ metro area",metro,7/18/2022,8/14/2022,2139,-0.05978022,-6.00%
-233,2022,4 weeks,"Phoenix, AZ metro area",metro,7/25/2022,8/21/2022,2042,-0.103992979,-10.40%
-240,2022,4 weeks,"Phoenix, AZ metro area",metro,8/1/2022,8/28/2022,1956,-0.141352063,-14.10%
-247,2022,4 weeks,"Phoenix, AZ metro area",metro,8/8/2022,9/4/2022,1851,-0.172182469,-17.20%
-254,2022,4 weeks,"Phoenix, AZ metro area",metro,8/15/2022,9/11/2022,1793,-0.181652214,-18.20%
-261,2022,4 weeks,"Phoenix, AZ metro area",metro,8/22/2022,9/18/2022,1761,-0.187730627,-18.80%
-268,2022,4 weeks,"Phoenix, AZ metro area",metro,8/29/2022,9/25/2022,1748,-0.175082586,-17.50%
-275,2022,4 weeks,"Phoenix, AZ metro area",metro,9/5/2022,10/2/2022,1746,-0.177966102,-17.80%
-282,2022,4 weeks,"Phoenix, AZ metro area",metro,9/12/2022,10/9/2022,1742,-0.192022263,-19.20%
-289,2022,4 weeks,"Phoenix, AZ metro area",metro,9/19/2022,10/16/2022,1687,-0.213152985,-21.30%
-296,2022,4 weeks,"Phoenix, AZ metro area",metro,9/26/2022,10/23/2022,1641,-0.238868275,-23.90%
-303,2022,4 weeks,"Phoenix, AZ metro area",metro,10/3/2022,10/30/2022,1534,-0.266379723,-26.60%
-310,2022,4 weeks,"Phoenix, AZ metro area",metro,10/10/2022,11/6/2022,1472,-0.28957529,-29.00%
-317,2022,4 weeks,"Phoenix, AZ metro area",metro,10/17/2022,11/13/2022,1414,-0.318554217,-31.90%
-324,2022,4 weeks,"Phoenix, AZ metro area",metro,10/24/2022,11/20/2022,1348,-0.324649299,-32.50%
-331,2022,4 weeks,"Phoenix, AZ metro area",metro,10/31/2022,11/27/2022,1213,-0.331680441,-33.20%
-338,2022,4 weeks,"Phoenix, AZ metro area",metro,11/7/2022,12/4/2022,1126,-0.356938892,-35.70%
-345,2022,4 weeks,"Phoenix, AZ metro area",metro,11/14/2022,12/11/2022,1051,-0.355610055,-35.60%
-352,2022,4 weeks,"Phoenix, AZ metro area",metro,11/21/2022,12/18/2022,990,-0.359223301,-35.90%
-359,2022,4 weeks,"Phoenix, AZ metro area",metro,11/28/2022,12/25/2022,964,-0.342876619,-34.30%
-1,2023,4 weeks,"Phoenix, AZ metro area",metro,12/5/2022,1/1/2023,852,-0.333333333,-33.30%
-8,2023,4 weeks,"Phoenix, AZ metro area",metro,12/12/2022,1/8/2023,904,-0.309923664,-31.00%
-15,2023,4 weeks,"Phoenix, AZ metro area",metro,12/19/2022,1/15/2023,1025,-0.285216179,-28.50%
-22,2023,4 weeks,"Phoenix, AZ metro area",metro,12/26/2022,1/22/2023,1226,-0.272403561,-27.20%
-29,2023,4 weeks,"Phoenix, AZ metro area",metro,1/2/2023,1/29/2023,1491,-0.219371728,-21.90%
-36,2023,4 weeks,"Phoenix, AZ metro area",metro,1/9/2023,2/5/2023,1595,-0.207256461,-20.70%
-43,2023,4 weeks,"Phoenix, AZ metro area",metro,1/16/2023,2/12/2023,1659,-0.16966967,-17.00%
-50,2023,4 weeks,"Phoenix, AZ metro area",metro,1/23/2023,2/19/2023,1676,-0.172345679,-17.20%
-57,2023,4 weeks,"Phoenix, AZ metro area",metro,1/30/2023,2/26/2023,1625,-0.192345924,-19.20%
-64,2023,4 weeks,"Phoenix, AZ metro area",metro,2/6/2023,3/5/2023,1610,-0.210397254,-21.00%
-71,2023,4 weeks,"Phoenix, AZ metro area",metro,2/13/2023,3/12/2023,1543,-0.258173077,-25.80%
-78,2023,4 weeks,"Phoenix, AZ metro area",metro,2/20/2023,3/19/2023,1511,-0.281502615,-28.20%
-85,2023,4 weeks,"Phoenix, AZ metro area",metro,2/27/2023,3/26/2023,1522,-0.294717331,-29.50%
-92,2023,4 weeks,"Phoenix, AZ metro area",metro,3/6/2023,4/2/2023,1495,-0.304651163,-30.50%
-99,2023,4 weeks,"Phoenix, AZ metro area",metro,3/13/2023,4/9/2023,1511,-0.314117113,-31.40%
-106,2023,4 weeks,"Phoenix, AZ metro area",metro,3/20/2023,4/16/2023,1553,-0.298554652,-29.90%
-113,2023,4 weeks,"Phoenix, AZ metro area",metro,3/27/2023,4/23/2023,1577,-0.300354925,-30.00%
-120,2023,4 weeks,"Phoenix, AZ metro area",metro,4/3/2023,4/30/2023,1563,-0.327163151,-32.70%
-127,2023,4 weeks,"Phoenix, AZ metro area",metro,4/10/2023,5/7/2023,1575,-0.33460076,-33.50%
-134,2023,4 weeks,"Phoenix, AZ metro area",metro,4/17/2023,5/14/2023,1554,-0.375652873,-37.60%
-141,2023,4 weeks,"Phoenix, AZ metro area",metro,4/24/2023,5/21/2023,1520,-0.401810311,-40.20%
-148,2023,4 weeks,"Phoenix, AZ metro area",metro,5/1/2023,5/28/2023,1508,-0.409322366,-40.90%
-155,2023,4 weeks,"Phoenix, AZ metro area",metro,5/8/2023,6/4/2023,1446,-0.43625731,-43.60%
-162,2023,4 weeks,"Phoenix, AZ metro area",metro,5/15/2023,6/11/2023,1427,-0.439733019,-44.00%
-169,2023,4 weeks,"Phoenix, AZ metro area",metro,5/22/2023,6/18/2023,1413,-0.454229432,-45.40%
-176,2023,4 weeks,"Phoenix, AZ metro area",metro,5/29/2023,6/25/2023,1406,-0.461921163,-46.20%
-183,2023,4 weeks,"Phoenix, AZ metro area",metro,6/5/2023,7/2/2023,1409,-0.451323988,-45.10%
-190,2023,4 weeks,"Phoenix, AZ metro area",metro,6/12/2023,7/9/2023,1359,-0.450465022,-45.00%
-197,2023,4 weeks,"Phoenix, AZ metro area",metro,6/19/2023,7/16/2023,1347,-0.435929648,-43.60%
-204,2023,4 weeks,"Phoenix, AZ metro area",metro,6/26/2023,7/23/2023,1329,-0.423927178,-42.40%
-211,2023,4 weeks,"Phoenix, AZ metro area",metro,7/3/2023,7/30/2023,1335,-0.406666667,-40.70%
-218,2023,4 weeks,"Phoenix, AZ metro area",metro,7/10/2023,8/6/2023,1389,-0.382392174,-38.20%
-225,2023,4 weeks,"Phoenix, AZ metro area",metro,7/17/2023,8/13/2023,1390,-0.350163628,-35.00%
-232,2023,4 weeks,"Phoenix, AZ metro area",metro,7/24/2023,8/20/2023,1435,-0.297257591,-29.70%
-239,2023,4 weeks,"Phoenix, AZ metro area",metro,7/31/2023,8/27/2023,1450,-0.258691207,-25.90%
-246,2023,4 weeks,"Phoenix, AZ metro area",metro,8/7/2023,9/3/2023,1446,-0.218800648,-21.90%
-253,2023,4 weeks,"Phoenix, AZ metro area",metro,8/14/2023,9/10/2023,1466,-0.182375906,-18.20%
-260,2023,4 weeks,"Phoenix, AZ metro area",metro,8/21/2023,9/17/2023,1472,-0.1641113,-16.40%
-267,2023,4 weeks,"Phoenix, AZ metro area",metro,8/28/2023,9/24/2023,1498,-0.143020595,-14.30%
-274,2023,4 weeks,"Phoenix, AZ metro area",metro,9/4/2023,10/1/2023,1528,-0.124856816,-12.50%
-281,2023,4 weeks,"Phoenix, AZ metro area",metro,9/11/2023,10/8/2023,1557,-0.10619977,-10.60%
-288,2023,4 weeks,"Phoenix, AZ metro area",metro,9/18/2023,10/15/2023,1573,-0.067575578,-6.80%
-295,2023,4 weeks,"Phoenix, AZ metro area",metro,9/25/2023,10/22/2023,1591.809104,-0.029976171,-3.00%
-302,2023,4 weeks,"Phoenix, AZ metro area",metro,10/2/2023,10/29/2023,1596.370176,0.040658524,4.10%
-309,2023,4 weeks,"Phoenix, AZ metro area",metro,10/9/2023,11/5/2023,1605.73542,0.090852867,9.10%
-316,2023,4 weeks,"Phoenix, AZ metro area",metro,10/16/2023,11/12/2023,1636.919761,0.157651882,15.80%
+5,2020,4 weeks,"Los Angeles, CA metro area",metro,12/9/2019,1/5/2020,686,-0.136020151,-13.60%
+12,2020,4 weeks,"Los Angeles, CA metro area",metro,12/16/2019,1/12/2020,814,-0.142255005,-14.20%
+19,2020,4 weeks,"Los Angeles, CA metro area",metro,12/23/2019,1/19/2020,1009,-0.123370982,-12.30%
+26,2020,4 weeks,"Los Angeles, CA metro area",metro,12/30/2019,1/26/2020,1294,-0.120923913,-12.10%
+33,2020,4 weeks,"Los Angeles, CA metro area",metro,1/6/2020,2/2/2020,1468,-0.074401009,-7.40%
+40,2020,4 weeks,"Los Angeles, CA metro area",metro,1/13/2020,2/9/2020,1508,-0.051572327,-5.20%
+47,2020,4 weeks,"Los Angeles, CA metro area",metro,1/20/2020,2/16/2020,1554,-0.023255814,-2.30%
+54,2020,4 weeks,"Los Angeles, CA metro area",metro,1/27/2020,2/23/2020,1589,0.005060089,0.50%
+61,2020,4 weeks,"Los Angeles, CA metro area",metro,2/3/2020,3/1/2020,1654,0.023514851,2.40%
+68,2020,4 weeks,"Los Angeles, CA metro area",metro,2/10/2020,3/8/2020,1697,0.041104294,4.10%
+75,2020,4 weeks,"Los Angeles, CA metro area",metro,2/17/2020,3/15/2020,1679,-0.02891845,-2.90%
+82,2020,4 weeks,"Los Angeles, CA metro area",metro,2/24/2020,3/22/2020,1614,-0.082954545,-8.30%
+89,2020,4 weeks,"Los Angeles, CA metro area",metro,3/2/2020,3/29/2020,1427,-0.209856035,-21.00%
+96,2020,4 weeks,"Los Angeles, CA metro area",metro,3/9/2020,4/5/2020,1240,-0.336543606,-33.70%
+103,2020,4 weeks,"Los Angeles, CA metro area",metro,3/16/2020,4/12/2020,1051,-0.442735949,-44.30%
+110,2020,4 weeks,"Los Angeles, CA metro area",metro,3/23/2020,4/19/2020,961,-0.485821295,-48.60%
+117,2020,4 weeks,"Los Angeles, CA metro area",metro,3/30/2020,4/26/2020,985,-0.489637306,-49.00%
+124,2020,4 weeks,"Los Angeles, CA metro area",metro,4/6/2020,5/3/2020,1033,-0.479859013,-48.00%
+131,2020,4 weeks,"Los Angeles, CA metro area",metro,4/13/2020,5/10/2020,1151,-0.414249364,-41.40%
+138,2020,4 weeks,"Los Angeles, CA metro area",metro,4/20/2020,5/17/2020,1290,-0.375302663,-37.50%
+145,2020,4 weeks,"Los Angeles, CA metro area",metro,4/27/2020,5/24/2020,1424,-0.270117888,-27.00%
+152,2020,4 weeks,"Los Angeles, CA metro area",metro,5/4/2020,5/31/2020,1473,-0.215654952,-21.60%
+159,2020,4 weeks,"Los Angeles, CA metro area",metro,5/11/2020,6/7/2020,1556,-0.182343668,-18.20%
+166,2020,4 weeks,"Los Angeles, CA metro area",metro,5/18/2020,6/14/2020,1591,-0.149197861,-14.90%
+173,2020,4 weeks,"Los Angeles, CA metro area",metro,5/25/2020,6/21/2020,1627,-0.166922683,-16.70%
+180,2020,4 weeks,"Los Angeles, CA metro area",metro,6/1/2020,6/28/2020,1687,-0.119979134,-12.00%
+187,2020,4 weeks,"Los Angeles, CA metro area",metro,6/8/2020,7/5/2020,1672,-0.053763441,-5.40%
+194,2020,4 weeks,"Los Angeles, CA metro area",metro,6/15/2020,7/12/2020,1753,-0.023942094,-2.40%
+201,2020,4 weeks,"Los Angeles, CA metro area",metro,6/22/2020,7/19/2020,1793,-0.009392265,-0.90%
+208,2020,4 weeks,"Los Angeles, CA metro area",metro,6/29/2020,7/26/2020,1852,0.028888889,2.90%
+215,2020,4 weeks,"Los Angeles, CA metro area",metro,7/6/2020,8/2/2020,1941,0.014636696,1.50%
+222,2020,4 weeks,"Los Angeles, CA metro area",metro,7/13/2020,8/9/2020,1914,0.036275041,3.60%
+229,2020,4 weeks,"Los Angeles, CA metro area",metro,7/20/2020,8/16/2020,1933,0.097671777,9.80%
+236,2020,4 weeks,"Los Angeles, CA metro area",metro,7/27/2020,8/23/2020,1929,0.100399315,10.00%
+243,2020,4 weeks,"Los Angeles, CA metro area",metro,8/3/2020,8/30/2020,1926,0.17870257,17.90%
+250,2020,4 weeks,"Los Angeles, CA metro area",metro,8/10/2020,9/6/2020,1942,0.194341943,19.40%
+257,2020,4 weeks,"Los Angeles, CA metro area",metro,8/17/2020,9/13/2020,1951,0.182424242,18.20%
+264,2020,4 weeks,"Los Angeles, CA metro area",metro,8/24/2020,9/20/2020,1958,0.181653591,18.20%
+271,2020,4 weeks,"Los Angeles, CA metro area",metro,8/31/2020,9/27/2020,1977,0.149418605,14.90%
+278,2020,4 weeks,"Los Angeles, CA metro area",metro,9/7/2020,10/4/2020,1992,0.19138756,19.10%
+285,2020,4 weeks,"Los Angeles, CA metro area",metro,9/14/2020,10/11/2020,1992,0.231149567,23.10%
+292,2020,4 weeks,"Los Angeles, CA metro area",metro,9/21/2020,10/18/2020,2006,0.278521351,27.90%
+299,2020,4 weeks,"Los Angeles, CA metro area",metro,9/28/2020,10/25/2020,1976,0.291503268,29.20%
+306,2020,4 weeks,"Los Angeles, CA metro area",metro,10/5/2020,11/1/2020,1902,0.269692924,27.00%
+313,2020,4 weeks,"Los Angeles, CA metro area",metro,10/12/2020,11/8/2020,1804,0.231399317,23.10%
+320,2020,4 weeks,"Los Angeles, CA metro area",metro,10/19/2020,11/15/2020,1714,0.201121233,20.10%
+327,2020,4 weeks,"Los Angeles, CA metro area",metro,10/26/2020,11/22/2020,1626,0.210722264,21.10%
+334,2020,4 weeks,"Los Angeles, CA metro area",metro,11/2/2020,11/29/2020,1424,0.246935201,24.70%
+341,2020,4 weeks,"Los Angeles, CA metro area",metro,11/9/2020,12/6/2020,1393,0.314150943,31.40%
+348,2020,4 weeks,"Los Angeles, CA metro area",metro,11/16/2020,12/13/2020,1315,0.368366285,36.80%
+355,2020,4 weeks,"Los Angeles, CA metro area",metro,11/23/2020,12/20/2020,1223,0.425407925,42.50%
+362,2020,4 weeks,"Los Angeles, CA metro area",metro,11/30/2020,12/27/2020,1144,0.476129032,47.60%
+3,2021,4 weeks,"Los Angeles, CA metro area",metro,12/7/2020,1/3/2021,943,0.374635569,37.50%
+10,2021,4 weeks,"Los Angeles, CA metro area",metro,12/14/2020,1/10/2021,987,0.212530713,21.30%
+17,2021,4 weeks,"Los Angeles, CA metro area",metro,12/21/2020,1/17/2021,1078,0.068384539,6.80%
+24,2021,4 weeks,"Los Angeles, CA metro area",metro,12/28/2020,1/24/2021,1310,0.01236476,1.20%
+31,2021,4 weeks,"Los Angeles, CA metro area",metro,1/4/2021,1/31/2021,1526,0.039509537,4.00%
+38,2021,4 weeks,"Los Angeles, CA metro area",metro,1/11/2021,2/7/2021,1595,0.057692308,5.80%
+45,2021,4 weeks,"Los Angeles, CA metro area",metro,1/18/2021,2/14/2021,1656,0.065637066,6.60%
+52,2021,4 weeks,"Los Angeles, CA metro area",metro,1/25/2021,2/21/2021,1709,0.075519194,7.60%
+59,2021,4 weeks,"Los Angeles, CA metro area",metro,2/1/2021,2/28/2021,1756,0.061668682,6.20%
+66,2021,4 weeks,"Los Angeles, CA metro area",metro,2/8/2021,3/7/2021,1805,0.063641721,6.40%
+73,2021,4 weeks,"Los Angeles, CA metro area",metro,2/15/2021,3/14/2021,1848,0.100655152,10.10%
+80,2021,4 weeks,"Los Angeles, CA metro area",metro,2/22/2021,3/21/2021,1906,0.180916976,18.10%
+87,2021,4 weeks,"Los Angeles, CA metro area",metro,3/1/2021,3/28/2021,1940,0.359495445,35.90%
+94,2021,4 weeks,"Los Angeles, CA metro area",metro,3/8/2021,4/4/2021,1880,0.516129032,51.60%
+101,2021,4 weeks,"Los Angeles, CA metro area",metro,3/15/2021,4/11/2021,1895,0.803044719,80.30%
+108,2021,4 weeks,"Los Angeles, CA metro area",metro,3/22/2021,4/18/2021,1892,0.968782518,96.90%
+115,2021,4 weeks,"Los Angeles, CA metro area",metro,3/29/2021,4/25/2021,1880,0.908629442,90.90%
+122,2021,4 weeks,"Los Angeles, CA metro area",metro,4/5/2021,5/2/2021,1945,0.88286544,88.30%
+129,2021,4 weeks,"Los Angeles, CA metro area",metro,4/12/2021,5/9/2021,1929,0.67593397,67.60%
+136,2021,4 weeks,"Los Angeles, CA metro area",metro,4/19/2021,5/16/2021,1952,0.513178295,51.30%
+143,2021,4 weeks,"Los Angeles, CA metro area",metro,4/26/2021,5/23/2021,2015,0.41502809,41.50%
+150,2021,4 weeks,"Los Angeles, CA metro area",metro,5/3/2021,5/30/2021,1970,0.337406653,33.70%
+157,2021,4 weeks,"Los Angeles, CA metro area",metro,5/10/2021,6/6/2021,1989,0.278277635,27.80%
+164,2021,4 weeks,"Los Angeles, CA metro area",metro,5/17/2021,6/13/2021,1977,0.242614708,24.30%
+171,2021,4 weeks,"Los Angeles, CA metro area",metro,5/24/2021,6/20/2021,1981,0.217578365,21.80%
+178,2021,4 weeks,"Los Angeles, CA metro area",metro,5/31/2021,6/27/2021,2050,0.215174867,21.50%
+185,2021,4 weeks,"Los Angeles, CA metro area",metro,6/7/2021,7/4/2021,1919,0.147727273,14.80%
+192,2021,4 weeks,"Los Angeles, CA metro area",metro,6/14/2021,7/11/2021,1963,0.119794638,12.00%
+199,2021,4 weeks,"Los Angeles, CA metro area",metro,6/21/2021,7/18/2021,1974,0.100948132,10.10%
+206,2021,4 weeks,"Los Angeles, CA metro area",metro,6/28/2021,7/25/2021,1964,0.060475162,6.00%
+213,2021,4 weeks,"Los Angeles, CA metro area",metro,7/5/2021,8/1/2021,2072,0.067490984,6.70%
+220,2021,4 weeks,"Los Angeles, CA metro area",metro,7/12/2021,8/8/2021,2000,0.044932079,4.50%
+227,2021,4 weeks,"Los Angeles, CA metro area",metro,7/19/2021,8/15/2021,1958,0.012933264,1.30%
+234,2021,4 weeks,"Los Angeles, CA metro area",metro,7/26/2021,8/22/2021,1913,-0.008294453,-0.80%
+241,2021,4 weeks,"Los Angeles, CA metro area",metro,8/2/2021,8/29/2021,1876,-0.02596054,-2.60%
+248,2021,4 weeks,"Los Angeles, CA metro area",metro,8/9/2021,9/5/2021,1805,-0.070545829,-7.10%
+255,2021,4 weeks,"Los Angeles, CA metro area",metro,8/16/2021,9/12/2021,1764,-0.095848283,-9.60%
+262,2021,4 weeks,"Los Angeles, CA metro area",metro,8/23/2021,9/19/2021,1749,-0.106741573,-10.70%
+269,2021,4 weeks,"Los Angeles, CA metro area",metro,8/30/2021,9/26/2021,1743,-0.118361153,-11.80%
+276,2021,4 weeks,"Los Angeles, CA metro area",metro,9/6/2021,10/3/2021,1784,-0.104417671,-10.40%
+283,2021,4 weeks,"Los Angeles, CA metro area",metro,9/13/2021,10/10/2021,1762,-0.115461847,-11.50%
+290,2021,4 weeks,"Los Angeles, CA metro area",metro,9/20/2021,10/17/2021,1748,-0.128614158,-12.90%
+297,2021,4 weeks,"Los Angeles, CA metro area",metro,9/27/2021,10/24/2021,1736,-0.12145749,-12.10%
+304,2021,4 weeks,"Los Angeles, CA metro area",metro,10/4/2021,10/31/2021,1656,-0.129337539,-12.90%
+311,2021,4 weeks,"Los Angeles, CA metro area",metro,10/11/2021,11/7/2021,1632,-0.095343681,-9.50%
+318,2021,4 weeks,"Los Angeles, CA metro area",metro,10/18/2021,11/14/2021,1567,-0.085764294,-8.60%
+325,2021,4 weeks,"Los Angeles, CA metro area",metro,10/25/2021,11/21/2021,1484,-0.087330873,-8.70%
+332,2021,4 weeks,"Los Angeles, CA metro area",metro,11/1/2021,11/28/2021,1288,-0.095505618,-9.60%
+339,2021,4 weeks,"Los Angeles, CA metro area",metro,11/8/2021,12/5/2021,1235,-0.113424264,-11.30%
+346,2021,4 weeks,"Los Angeles, CA metro area",metro,11/15/2021,12/12/2021,1153,-0.123193916,-12.30%
+353,2021,4 weeks,"Los Angeles, CA metro area",metro,11/22/2021,12/19/2021,1038,-0.151267375,-15.10%
+360,2021,4 weeks,"Los Angeles, CA metro area",metro,11/29/2021,12/26/2021,984,-0.13986014,-14.00%
+2,2022,4 weeks,"Los Angeles, CA metro area",metro,12/6/2021,1/2/2022,757,-0.197242842,-19.70%
+9,2022,4 weeks,"Los Angeles, CA metro area",metro,12/13/2021,1/9/2022,774,-0.215805471,-21.60%
+16,2022,4 weeks,"Los Angeles, CA metro area",metro,12/20/2021,1/16/2022,908,-0.157699443,-15.80%
+23,2022,4 weeks,"Los Angeles, CA metro area",metro,12/27/2021,1/23/2022,1144,-0.126717557,-12.70%
+30,2022,4 weeks,"Los Angeles, CA metro area",metro,1/3/2022,1/30/2022,1385,-0.092398427,-9.20%
+37,2022,4 weeks,"Los Angeles, CA metro area",metro,1/10/2022,2/6/2022,1503,-0.057680251,-5.80%
+44,2022,4 weeks,"Los Angeles, CA metro area",metro,1/17/2022,2/13/2022,1523,-0.08031401,-8.00%
+51,2022,4 weeks,"Los Angeles, CA metro area",metro,1/24/2022,2/20/2022,1617,-0.053832651,-5.40%
+58,2022,4 weeks,"Los Angeles, CA metro area",metro,1/31/2022,2/27/2022,1662,-0.053530752,-5.40%
+65,2022,4 weeks,"Los Angeles, CA metro area",metro,2/7/2022,3/6/2022,1681,-0.068698061,-6.90%
+72,2022,4 weeks,"Los Angeles, CA metro area",metro,2/14/2022,3/13/2022,1721,-0.068722944,-6.90%
+79,2022,4 weeks,"Los Angeles, CA metro area",metro,2/21/2022,3/20/2022,1701,-0.107555089,-10.80%
+86,2022,4 weeks,"Los Angeles, CA metro area",metro,2/28/2022,3/27/2022,1714,-0.116494845,-11.60%
+93,2022,4 weeks,"Los Angeles, CA metro area",metro,3/7/2022,4/3/2022,1715,-0.087765957,-8.80%
+100,2022,4 weeks,"Los Angeles, CA metro area",metro,3/14/2022,4/10/2022,1752,-0.075461741,-7.50%
+107,2022,4 weeks,"Los Angeles, CA metro area",metro,3/21/2022,4/17/2022,1704,-0.099365751,-9.90%
+114,2022,4 weeks,"Los Angeles, CA metro area",metro,3/28/2022,4/24/2022,1790,-0.04787234,-4.80%
+121,2022,4 weeks,"Los Angeles, CA metro area",metro,4/4/2022,5/1/2022,1844,-0.051928021,-5.20%
+128,2022,4 weeks,"Los Angeles, CA metro area",metro,4/11/2022,5/8/2022,1835,-0.048729912,-4.90%
+135,2022,4 weeks,"Los Angeles, CA metro area",metro,4/18/2022,5/15/2022,1974,0.011270492,1.10%
+142,2022,4 weeks,"Los Angeles, CA metro area",metro,4/25/2022,5/22/2022,1977,-0.018858561,-1.90%
+149,2022,4 weeks,"Los Angeles, CA metro area",metro,5/2/2022,5/29/2022,1868,-0.05177665,-5.20%
+156,2022,4 weeks,"Los Angeles, CA metro area",metro,5/9/2022,6/5/2022,1888,-0.050779286,-5.10%
+163,2022,4 weeks,"Los Angeles, CA metro area",metro,5/16/2022,6/12/2022,1844,-0.067273647,-6.70%
+170,2022,4 weeks,"Los Angeles, CA metro area",metro,5/23/2022,6/19/2022,1831,-0.075719334,-7.60%
+177,2022,4 weeks,"Los Angeles, CA metro area",metro,5/30/2022,6/26/2022,1925,-0.06097561,-6.10%
+184,2022,4 weeks,"Los Angeles, CA metro area",metro,6/6/2022,7/3/2022,1824,-0.04950495,-5.00%
+191,2022,4 weeks,"Los Angeles, CA metro area",metro,6/13/2022,7/10/2022,1807,-0.079470199,-7.90%
+198,2022,4 weeks,"Los Angeles, CA metro area",metro,6/20/2022,7/17/2022,1761,-0.107902736,-10.80%
+205,2022,4 weeks,"Los Angeles, CA metro area",metro,6/27/2022,7/24/2022,1678,-0.145621181,-14.60%
+212,2022,4 weeks,"Los Angeles, CA metro area",metro,7/4/2022,7/31/2022,1685,-0.186776062,-18.70%
+219,2022,4 weeks,"Los Angeles, CA metro area",metro,7/11/2022,8/7/2022,1617,-0.1915,-19.20%
+226,2022,4 weeks,"Los Angeles, CA metro area",metro,7/18/2022,8/14/2022,1534,-0.216547497,-21.70%
+233,2022,4 weeks,"Los Angeles, CA metro area",metro,7/25/2022,8/21/2022,1502,-0.214845792,-21.50%
+240,2022,4 weeks,"Los Angeles, CA metro area",metro,8/1/2022,8/28/2022,1480,-0.21108742,-21.10%
+247,2022,4 weeks,"Los Angeles, CA metro area",metro,8/8/2022,9/4/2022,1387,-0.231578947,-23.20%
+254,2022,4 weeks,"Los Angeles, CA metro area",metro,8/15/2022,9/11/2022,1380,-0.217687075,-21.80%
+261,2022,4 weeks,"Los Angeles, CA metro area",metro,8/22/2022,9/18/2022,1353,-0.226415094,-22.60%
+268,2022,4 weeks,"Los Angeles, CA metro area",metro,8/29/2022,9/25/2022,1320,-0.242685026,-24.30%
+275,2022,4 weeks,"Los Angeles, CA metro area",metro,9/5/2022,10/2/2022,1332,-0.253363229,-25.30%
+282,2022,4 weeks,"Los Angeles, CA metro area",metro,9/12/2022,10/9/2022,1289,-0.268444949,-26.80%
+289,2022,4 weeks,"Los Angeles, CA metro area",metro,9/19/2022,10/16/2022,1266,-0.275743707,-27.60%
+296,2022,4 weeks,"Los Angeles, CA metro area",metro,9/26/2022,10/23/2022,1255,-0.277073733,-27.70%
+303,2022,4 weeks,"Los Angeles, CA metro area",metro,10/3/2022,10/30/2022,1243,-0.249396135,-24.90%
+310,2022,4 weeks,"Los Angeles, CA metro area",metro,10/10/2022,11/6/2022,1219,-0.253063725,-25.30%
+317,2022,4 weeks,"Los Angeles, CA metro area",metro,10/17/2022,11/13/2022,1166,-0.255902999,-25.60%
+324,2022,4 weeks,"Los Angeles, CA metro area",metro,10/24/2022,11/20/2022,1106,-0.254716981,-25.50%
+331,2022,4 weeks,"Los Angeles, CA metro area",metro,10/31/2022,11/27/2022,919,-0.286490683,-28.60%
+338,2022,4 weeks,"Los Angeles, CA metro area",metro,11/7/2022,12/4/2022,866,-0.298785425,-29.90%
+345,2022,4 weeks,"Los Angeles, CA metro area",metro,11/14/2022,12/11/2022,790,-0.314830876,-31.50%
+352,2022,4 weeks,"Los Angeles, CA metro area",metro,11/21/2022,12/18/2022,707,-0.318882466,-31.90%
+359,2022,4 weeks,"Los Angeles, CA metro area",metro,11/28/2022,12/25/2022,680,-0.308943089,-30.90%
+1,2023,4 weeks,"Los Angeles, CA metro area",metro,12/5/2022,1/1/2023,518,-0.315719947,-31.60%
+8,2023,4 weeks,"Los Angeles, CA metro area",metro,12/12/2022,1/8/2023,546,-0.294573643,-29.50%
+15,2023,4 weeks,"Los Angeles, CA metro area",metro,12/19/2022,1/15/2023,605,-0.333700441,-33.40%
+22,2023,4 weeks,"Los Angeles, CA metro area",metro,12/26/2022,1/22/2023,781,-0.317307692,-31.70%
+29,2023,4 weeks,"Los Angeles, CA metro area",metro,1/2/2023,1/29/2023,957,-0.309025271,-30.90%
+36,2023,4 weeks,"Los Angeles, CA metro area",metro,1/9/2023,2/5/2023,1017,-0.323353293,-32.30%
+43,2023,4 weeks,"Los Angeles, CA metro area",metro,1/16/2023,2/12/2023,1046,-0.313197636,-31.30%
+50,2023,4 weeks,"Los Angeles, CA metro area",metro,1/23/2023,2/19/2023,1075,-0.335188621,-33.50%
+57,2023,4 weeks,"Los Angeles, CA metro area",metro,1/30/2023,2/26/2023,1058,-0.363417569,-36.30%
+64,2023,4 weeks,"Los Angeles, CA metro area",metro,2/6/2023,3/5/2023,1055,-0.372397383,-37.20%
+71,2023,4 weeks,"Los Angeles, CA metro area",metro,2/13/2023,3/12/2023,1102,-0.359674608,-36.00%
+78,2023,4 weeks,"Los Angeles, CA metro area",metro,2/20/2023,3/19/2023,1096,-0.355673133,-35.60%
+85,2023,4 weeks,"Los Angeles, CA metro area",metro,2/27/2023,3/26/2023,1122,-0.345390898,-34.50%
+92,2023,4 weeks,"Los Angeles, CA metro area",metro,3/6/2023,4/2/2023,1148,-0.330612245,-33.10%
+99,2023,4 weeks,"Los Angeles, CA metro area",metro,3/13/2023,4/9/2023,1093,-0.376141553,-37.60%
+106,2023,4 weeks,"Los Angeles, CA metro area",metro,3/20/2023,4/16/2023,1150,-0.325117371,-32.50%
+113,2023,4 weeks,"Los Angeles, CA metro area",metro,3/27/2023,4/23/2023,1206,-0.326256983,-32.60%
+120,2023,4 weeks,"Los Angeles, CA metro area",metro,4/3/2023,4/30/2023,1223,-0.336767896,-33.70%
+127,2023,4 weeks,"Los Angeles, CA metro area",metro,4/10/2023,5/7/2023,1317,-0.282288828,-28.20%
+134,2023,4 weeks,"Los Angeles, CA metro area",metro,4/17/2023,5/14/2023,1306,-0.338399189,-33.80%
+141,2023,4 weeks,"Los Angeles, CA metro area",metro,4/24/2023,5/21/2023,1349,-0.31765301,-31.80%
+148,2023,4 weeks,"Los Angeles, CA metro area",metro,5/1/2023,5/28/2023,1310,-0.298715203,-29.90%
+155,2023,4 weeks,"Los Angeles, CA metro area",metro,5/8/2023,6/4/2023,1291,-0.316207627,-31.60%
+162,2023,4 weeks,"Los Angeles, CA metro area",metro,5/15/2023,6/11/2023,1309,-0.290130152,-29.00%
+169,2023,4 weeks,"Los Angeles, CA metro area",metro,5/22/2023,6/18/2023,1269,-0.3069361,-30.70%
+176,2023,4 weeks,"Los Angeles, CA metro area",metro,5/29/2023,6/25/2023,1332,-0.308051948,-30.80%
+183,2023,4 weeks,"Los Angeles, CA metro area",metro,6/5/2023,7/2/2023,1298,-0.288377193,-28.80%
+190,2023,4 weeks,"Los Angeles, CA metro area",metro,6/12/2023,7/9/2023,1240,-0.313779745,-31.40%
+197,2023,4 weeks,"Los Angeles, CA metro area",metro,6/19/2023,7/16/2023,1264,-0.282226008,-28.20%
+204,2023,4 weeks,"Los Angeles, CA metro area",metro,6/26/2023,7/23/2023,1262,-0.247914184,-24.80%
+211,2023,4 weeks,"Los Angeles, CA metro area",metro,7/3/2023,7/30/2023,1278,-0.241543027,-24.20%
+218,2023,4 weeks,"Los Angeles, CA metro area",metro,7/10/2023,8/6/2023,1314,-0.187384045,-18.70%
+225,2023,4 weeks,"Los Angeles, CA metro area",metro,7/17/2023,8/13/2023,1287,-0.161016949,-16.10%
+232,2023,4 weeks,"Los Angeles, CA metro area",metro,7/24/2023,8/20/2023,1249,-0.168442077,-16.80%
+239,2023,4 weeks,"Los Angeles, CA metro area",metro,7/31/2023,8/27/2023,1216,-0.178378378,-17.80%
+246,2023,4 weeks,"Los Angeles, CA metro area",metro,8/7/2023,9/3/2023,1160,-0.163662581,-16.40%
+253,2023,4 weeks,"Los Angeles, CA metro area",metro,8/14/2023,9/10/2023,1161,-0.158695652,-15.90%
+260,2023,4 weeks,"Los Angeles, CA metro area",metro,8/21/2023,9/17/2023,1170,-0.135254989,-13.50%
+267,2023,4 weeks,"Los Angeles, CA metro area",metro,8/28/2023,9/24/2023,1200,-0.090909091,-9.10%
+274,2023,4 weeks,"Los Angeles, CA metro area",metro,9/4/2023,10/1/2023,1224,-0.081081081,-8.10%
+281,2023,4 weeks,"Los Angeles, CA metro area",metro,9/11/2023,10/8/2023,1202,-0.067494182,-6.70%
+288,2023,4 weeks,"Los Angeles, CA metro area",metro,9/18/2023,10/15/2023,1219,-0.037124803,-3.70%
+295,2023,4 weeks,"Los Angeles, CA metro area",metro,9/25/2023,10/22/2023,1230,-0.019920319,-2.00%
+302,2023,4 weeks,"Los Angeles, CA metro area",metro,10/2/2023,10/29/2023,1230,-0.010458568,-1.00%
+309,2023,4 weeks,"Los Angeles, CA metro area",metro,10/9/2023,11/5/2023,1217,-0.001640689,-0.20%
+316,2023,4 weeks,"Los Angeles, CA metro area",metro,10/16/2023,11/12/2023,1158.502489,-0.006430113,-0.60%
+323,2023,4 weeks,"Los Angeles, CA metro area",metro,10/23/2023,11/19/2023,1089.918991,-0.014539791,-1.50%
+330,2023,4 weeks,"Los Angeles, CA metro area",metro,10/30/2023,11/26/2023,927.7212561,0.009489941,0.90%
+337,2023,4 weeks,"Los Angeles, CA metro area",metro,11/6/2023,12/3/2023,897.0568391,0.035862401,3.60%
