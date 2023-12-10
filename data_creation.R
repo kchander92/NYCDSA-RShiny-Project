@@ -41,3 +41,5 @@ full_df = full_df %>% separate(Region.Name, c('Metro.City', 'Metro.State'), sep 
 
 full_df$adjusted_average_homes_sold = as.numeric(gsub(',', '', full_df$adjusted_average_homes_sold))
 full_df$Median.Sale.Price = as.numeric(gsub(',', '', full_df$Median.Sale.Price))
+
+write.csv(full_df, file='sun_belt_housing_data.csv', row.names=F)
