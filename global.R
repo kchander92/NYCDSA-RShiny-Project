@@ -22,6 +22,8 @@ for (s in filenames) {
                                by=c('Day.of.Year', 'Year.of.Period.End')))
 }
 
+rm(filenames, s)
+
 sunbelt_housing = sunbelt_housing %>% select(-Duration, -Region.Type,
                              -Average.New.Listings.Yoy..tooltip.,
                              -Average.Homes.Sold.Yoy..tooltip.,
