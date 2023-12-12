@@ -18,6 +18,11 @@ fluidPage(
                        label = 'Housing Metric',
                        choices = col_choices),
           
+          dateRangeInput(inputId = 'Dates',
+                         label = 'Date Range',
+                         start = min(sunbelt_housing$Period.Begin),
+                         end = max(sunbelt_housing$Period.End)),
+          
           img(src='arizona_houses.jpg', width = '450px', height = '300px')
         ),
 

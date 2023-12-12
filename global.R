@@ -39,7 +39,10 @@ sunbelt_housing = sunbelt_housing %>% separate(Region.Name, c('Metro.City', 'Met
          Period.End = as.Date(Period.End, '%m/%d/%Y')) %>%
   rename(Day = Day.of.Year, Year = Year.of.Period.End) %>%
   mutate(Month = month(Period.End)) %>%
-  relocate(Month, .before = Year)
+  relocate(Month, .before = Year) %>%
+  mutate(adjusted_average_new_listings_yoy = adjusted_average_new_listings_yoy * 100,
+         adjusted_average_homes_sold_yoy = adjusted_average_homes_sold_yoy * 100,
+         Median.Sale.Price.Yoy = Median.Sale.Price.Yoy * 100)
 
 sunbelt_housing$adjusted_average_homes_sold = as.numeric(gsub(',', '', sunbelt_housing$adjusted_average_homes_sold))
 sunbelt_housing$Median.Sale.Price = as.numeric(gsub(',', '', sunbelt_housing$Median.Sale.Price))
@@ -47,6 +50,6 @@ sunbelt_housing$Median.Sale.Price = as.numeric(gsub(',', '', sunbelt_housing$Med
 col_choices = list('Average New Listings' = 'adjusted_average_new_listings',
                    'Average Homes Sold' = 'adjusted_average_homes_sold',
                    'Median Sale Price' = 'Median.Sale.Price',
-                   'Average New Listings YoY Change' = 'adjusted_average_new_listings_yoy',
-                   'Average Homes Sold YoY Change' = 'adjusted_average_homes_sold_yoy',
-                   'Median Sale Price YoY Change' = 'Median.Sale.Price.Yoy')
+                   'Average New Listings %YoY Change' = 'adjusted_average_new_listings_yoy',
+                   'Average Homes Sold %YoY Change' = 'adjusted_average_homes_sold_yoy',
+                   'Median Sale Price %YoY Change' = 'Median.Sale.Price.Yoy')
