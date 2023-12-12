@@ -17,7 +17,9 @@ function(input, output, session) {
       trendsByCity() %>% 
         ggplot(aes(x = Period.End, y=adjusted_average_new_listings)) +
         geom_line(aes(color=Metro.City)) +
-        labs(x='Period End Date', y='New Listings', title='New Listings')
+        labs(x='Period End Date', y='New Listings',
+             title='New Listings by Metro City, 2020-2023') +
+        theme(plot.title = element_text(hjust = 0.5))
     })
 
 }
