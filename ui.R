@@ -9,13 +9,15 @@ fluidPage(
     # Sidebar with a slider input for number of bins
     sidebarLayout(
         sidebarPanel(
-#          selectizeInput(inputId = 'Metro.City',
-#                         label = 'Metro Area City',
-#                         choices = unique(sunbelt_housing$Metro.City)),
           checkboxGroupInput(inputId = 'Metro.City',
-                             label = h3('Metro Area City'),
+                             label = 'Metro Area City',
                              choices = unique(sunbelt_housing$Metro.City),
                              selected = 'Atlanta'),
+          
+          radioButtons(inputId = 'Metric',
+                       label = 'Housing Metric',
+                       choices = col_choices),
+          
           img(src='arizona_houses.jpg', width = '450px', height = '300px')
         ),
 

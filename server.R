@@ -15,10 +15,13 @@ function(input, output, session) {
 
     output$newListingTrend <- renderPlot({
       trendsByCity() %>% 
-        ggplot(aes(x = Period.End, y=adjusted_average_new_listings)) +
+        ggplot(aes(x = trendsByCity()[['Period.End']],
+                   y = trendsByCity()[[input$Metric]])) +
         geom_line(aes(color=Metro.City)) +
-        labs(x='Period End Date', y='New Listings',
-             title='New Listings by Metro City, 2020-2023') +
+        labs(x='Period End Date',
+             y=names(col_choices)[col_choices == input$Metric],
+             title=paste(names(col_choices)[col_choices == input$Metric],
+                         'by Metro City, 2020-2023')) +
         theme(plot.title = element_text(hjust = 0.5))
     })
 

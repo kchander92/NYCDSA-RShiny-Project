@@ -43,3 +43,10 @@ sunbelt_housing = sunbelt_housing %>% separate(Region.Name, c('Metro.City', 'Met
 
 sunbelt_housing$adjusted_average_homes_sold = as.numeric(gsub(',', '', sunbelt_housing$adjusted_average_homes_sold))
 sunbelt_housing$Median.Sale.Price = as.numeric(gsub(',', '', sunbelt_housing$Median.Sale.Price))
+
+col_choices = list('Average New Listings' = 'adjusted_average_new_listings',
+                   'Average Homes Sold' = 'adjusted_average_homes_sold',
+                   'Median Sale Price' = 'Median.Sale.Price',
+                   'Average New Listings YoY Change' = 'adjusted_average_new_listings_yoy',
+                   'Average Homes Sold YoY Change' = 'adjusted_average_homes_sold_yoy',
+                   'Median Sale Price YoY Change' = 'Median.Sale.Price.Yoy')
