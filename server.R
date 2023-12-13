@@ -10,7 +10,10 @@ function(input, output, session) {
                adjusted_average_new_listings, adjusted_average_new_listings_yoy,
                adjusted_average_homes_sold, adjusted_average_homes_sold_yoy,
                Median.Sale.Price, Median.Sale.Price.Yoy) %>%
-        filter(Metro.City %in% input$Metro.City &
+        filter(Metro.City %in%
+                 c(input$Metro.CityAZ, input$Metro.CityCA, input$Metro.CityFL,
+                   input$Metro.CityGA, input$Metro.CityLA, input$Metro.CityNV,
+                   input$Metro.CityTX) &
                  Period.End >= input$Dates[1] &
                  Period.End <= input$Dates[2]) 
     })
