@@ -8,8 +8,9 @@ dashboardPage(
   dashboardSidebar(
     sidebarMenu(
       menuItem('Time Trends by Metro Area',
-               tabName = 'timeTrends',
-               icon = icon('chart-line')),
+               tabName = 'timeTrends'),
+      menuItem('Correlations',
+               tabName = 'correlations'),
       selected = TRUE
     )
   ),
@@ -26,6 +27,11 @@ dashboardPage(
                          label = 'Housing Metric',
                          choices = col_choices)
           )
+        ),
+        
+        tabItem(
+          tabName = 'correlations',
+          box()
         )
       ),
       
