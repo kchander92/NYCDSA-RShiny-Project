@@ -1,78 +1,88 @@
 library(shinydashboard)
 
 dashboardPage(
-
-    dashboardHeader(title="Housing Supply and Demand in the USA's Sun Belt",
-                    titleWidth = 500),
-
-    dashboardSidebar(
-    ),
-
-    dashboardBody(
-      fluidRow(
-        box(
-          plotOutput('newListingTrend')
-        ),
-        
-        box(
-          fluidRow(
-          column(width=3, 
-            checkboxGroupInput(inputId = 'Metro.CityAZ',
-                               label = 'Arizona',
-                               choices = unique(filter(sunbelt_housing,
-                                                       Metro.State == 'AZ')$Metro.City))),
-          
-          column(width=3,
-            checkboxGroupInput(inputId = 'Metro.CityCA',
-                               label = 'California',
-                               choices = unique(filter(sunbelt_housing,
-                                                       Metro.State == 'CA')$Metro.City))),
-          
-          column(width=3,
-            checkboxGroupInput(inputId = 'Metro.CityFL',
-                               label = 'Florida',
-                               choices = unique(filter(sunbelt_housing,
-                                                       Metro.State == 'FL')$Metro.City))),
-          
-          column(width=3,
-            checkboxGroupInput(inputId = 'Metro.CityGA',
-                               label = 'Georgia',
-                               choices = unique(filter(sunbelt_housing,
-                                                       Metro.State == 'GA')$Metro.City)))),
-          
-          fluidRow(
-          column(width=4,
-                 checkboxGroupInput(inputId = 'Metro.CityLA',
-                                    label = 'Louisiana',
-                                    choices = unique(filter(sunbelt_housing,
-                                                            Metro.State == 'LA')$Metro.City))),
-          
-          column(width=4,
-                 checkboxGroupInput(inputId = 'Metro.CityNV',
-                                    label = 'Nevada',
-                                    choices = unique(filter(sunbelt_housing,
-                                                            Metro.State == 'NV')$Metro.City))),
-          
-          column(width=4,
-                 checkboxGroupInput(inputId = 'Metro.CityTX',
-                                    label = 'Texas',
-                                    choices = unique(filter(sunbelt_housing,
-                                                            Metro.State == 'TX')$Metro.City))))
-        )
-      ),
-      fluidRow(
-        box(
-          dateRangeInput(inputId = 'Dates',
-                         label = 'Date Range',
-                         start = min(sunbelt_housing$Period.Begin),
-                         end = max(sunbelt_housing$Period.End)),
-          
-          
-          radioButtons(inputId = 'Metric',
-                       label = 'Housing Metric',
-                       choices = col_choices)
-        )
+  
+  dashboardHeader(title="Housing Supply and Demand in the USA's Sun Belt",
+                  titleWidth = 500),
+  
+  dashboardSidebar(
+    sidebarMenu(
+      menuItem('Time Trends by Metro Area',
+               tabName = 'timeTrends',
+               icon = icon('chart-line')),
+      selected = TRUE
+    )
+  ),
+  
+  dashboardBody(
+    tabItems(
+      tabItem(tabName = 'timeTrends',
+              fluidRow(
+                box(
+                  plotOutput('newListingTrend')
+                ),
+                
+                box(
+                  fluidRow(
+                    column(width=3, 
+                           checkboxGroupInput(inputId = 'Metro.CityAZ',
+                                              label = 'Arizona',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'AZ')$Metro.City))),
+                    
+                    column(width=3,
+                           checkboxGroupInput(inputId = 'Metro.CityCA',
+                                              label = 'California',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'CA')$Metro.City))),
+                    
+                    column(width=3,
+                           checkboxGroupInput(inputId = 'Metro.CityFL',
+                                              label = 'Florida',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'FL')$Metro.City))),
+                    
+                    column(width=3,
+                           checkboxGroupInput(inputId = 'Metro.CityGA',
+                                              label = 'Georgia',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'GA')$Metro.City)))),
+                  
+                  fluidRow(
+                    column(width=4,
+                           checkboxGroupInput(inputId = 'Metro.CityLA',
+                                              label = 'Louisiana',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'LA')$Metro.City))),
+                    
+                    column(width=4,
+                           checkboxGroupInput(inputId = 'Metro.CityNV',
+                                              label = 'Nevada',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'NV')$Metro.City))),
+                    
+                    column(width=4,
+                           checkboxGroupInput(inputId = 'Metro.CityTX',
+                                              label = 'Texas',
+                                              choices = unique(filter(sunbelt_housing,
+                                                                      Metro.State == 'TX')$Metro.City))))
+                )
+              ),
+              fluidRow(
+                box(
+                  dateRangeInput(inputId = 'Dates',
+                                 label = 'Date Range',
+                                 start = min(sunbelt_housing$Period.Begin),
+                                 end = max(sunbelt_housing$Period.End)),
+                  
+                  
+                  radioButtons(inputId = 'Metric',
+                               label = 'Housing Metric',
+                               choices = col_choices)
+                )
+              )
       )
     )
+  )
 )
 
