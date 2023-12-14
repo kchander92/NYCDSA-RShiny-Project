@@ -38,7 +38,7 @@ sunbelt_housing = sunbelt_housing %>% separate(Region.Name, c('Metro.City', 'Met
   mutate(Period.Begin = as.Date(Period.Begin, '%m/%d/%Y'),
          Period.End = as.Date(Period.End, '%m/%d/%Y')) %>%
   rename(Day = Day.of.Year, Year = Year.of.Period.End) %>%
-  mutate(Month = month(Period.End)) %>%
+  mutate(Month = month(Period.End, label = TRUE)) %>%
   relocate(Month, .before = Year) %>%
   mutate(adjusted_average_new_listings_yoy = adjusted_average_new_listings_yoy * 100,
          adjusted_average_homes_sold_yoy = adjusted_average_homes_sold_yoy * 100,

@@ -11,6 +11,8 @@ dashboardPage(
                tabName = 'timeTrends'),
       menuItem('Correlations',
                tabName = 'correlations'),
+      menuItem('Aggregate Statistics',
+               tabName = 'barPlot'),
       selected = TRUE
     )
   ),
@@ -22,7 +24,7 @@ dashboardPage(
         tabItem(
           tabName = 'timeTrends',
           box(
-            plotOutput('trends'),
+            plotOutput('timeTrends'),
             radioButtons(inputId = 'Metric',
                          label = 'Housing Metric',
                          choices = col_choices)
@@ -36,15 +38,52 @@ dashboardPage(
             fluidRow(
               column(
                 width=6,
-                radioButtons(inputId = 'xMetric',
-                             label = 'xAxis.Metric',
-                             choices = col_choices)
+                radioButtons(
+                  inputId = 'xMetric',
+                  label = 'X-Axis',
+                  choices = col_choices)
               ),
               column(
                 width=6,
-                radioButtons(inputId = 'yMetric',
-                             label = 'yAxis.Metric',
-                             choices = col_choices)
+                radioButtons(
+                  inputId = 'yMetric',
+                  label = 'Y-Axis',
+                  choices = col_choices)
+              )
+            )
+          )
+        ),
+        
+        tabItem(
+          tabName = 'barPlot',
+          box(
+            plotOutput('barPlot'),
+            fluidRow(
+              column(
+                width = 4,
+                selectizeInput(
+                  inputId = 'month',
+                  label = 'Month',
+                  choices = unique(sunbelt_housing$Month)
+                )
+              ),
+              
+              column(
+                width = 4,
+                selectizeInput(
+                  inputId = 'year',
+                  label = 'Year',
+                  choices = unique(sunbelt_housing$Year)
+                )
+              ),
+              
+              column(
+                width = 4,
+                radioButtons(
+                  inputId = 'timeFrame',
+                  label = 'By:',
+                  choices = c('Month', 'Year')
+                )
               )
             )
           )
