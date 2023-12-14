@@ -58,6 +58,28 @@ dashboardPage(
           tabName = 'barPlot',
           box(
             plotOutput('barPlot'),
+            
+            fluidRow(
+              column(
+                width = 6,
+                radioButtons(
+                  inputId = 'Metric',
+                  label = 'Metric',
+                  choices = col_choices
+                )
+              ),
+              
+              column(
+                width = 6,
+                radioButtons(
+                  inputId = 'Statistic',
+                  label = 'Statistic',
+                  choices = c('Mean', 'Median', 'Maximum', 'Minimum',
+                              'Range', 'Standard Deviation')
+                )
+              )
+            ),
+            
             fluidRow(
               column(
                 width = 4,
