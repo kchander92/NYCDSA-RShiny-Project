@@ -22,7 +22,7 @@ dashboardPage(
         tabItem(
           tabName = 'timeTrends',
           box(
-            plotOutput('newListingTrend'),
+            plotOutput('trends'),
             radioButtons(inputId = 'Metric',
                          label = 'Housing Metric',
                          choices = col_choices)
@@ -32,17 +32,18 @@ dashboardPage(
         tabItem(
           tabName = 'correlations',
           box(
+            plotOutput('correlations'),
             fluidRow(
               column(
                 width=6,
                 radioButtons(inputId = 'xMetric',
-                             label = 'X-Axis',
+                             label = 'xAxis.Metric',
                              choices = col_choices)
               ),
               column(
                 width=6,
                 radioButtons(inputId = 'yMetric',
-                             label = 'Y-Axis',
+                             label = 'yAxis.Metric',
                              choices = col_choices)
               )
             )

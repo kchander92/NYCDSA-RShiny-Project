@@ -4,7 +4,7 @@ library(ggplot2)
 
 function(input, output, session) {
   
-    trendsByCity = reactive({
+    filteredByCity <- reactive({
       sunbelt_housing %>%
         select(Period.End, Metro.City,
                adjusted_average_new_listings, adjusted_average_new_listings_yoy,
@@ -18,14 +18,28 @@ function(input, output, session) {
                  Period.End <= input$Dates[2]) 
     })
 
-    output$newListingTrend <- renderPlot({
-      trendsByCity() %>% 
-        ggplot(aes(x = trendsByCity()[['Period.End']],
-                   y = trendsByCity()[[input$Metric]])) +
+    output$trends <- renderPlot({
+      filteredByCity() %>% 
+        ggplot(aes(x = filteredByCity()[['Period.End']],
+                   y = filteredByCity()[[input$Metric]])) +
         geom_line(aes(color=Metro.City)) +
         labs(x='Period End Date',
              y=names(col_choices)[col_choices == input$Metric],
              title=paste(names(col_choices)[col_choices == input$Metric],
+                         'by Metro City, 2020-2023')) +
+        theme(plot.title = element_text(hjust = 0.5))
+    })
+    
+    output$correlations <- renderPlot({
+      filteredByCity() %>% 
+        ggplot(aes(x = filteredByCity()[[input$xMetric]],
+                   y = filteredByCity()[[input$yMetric]])) +
+        geom_point(aes(color=Metro.City)) +
+        labs(x=names(col_choices)[col_choices == input$xMetric],
+             y=names(col_choices)[col_choices == input$yMetric],
+             title=paste(names(col_choices)[col_choices == input$yMetric],
+                         '.vs',
+                         names(col_choices)[col_choices == input$xMetric],
                          'by Metro City, 2020-2023')) +
         theme(plot.title = element_text(hjust = 0.5))
     })
