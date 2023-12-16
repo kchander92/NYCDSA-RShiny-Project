@@ -138,13 +138,20 @@ dashboardPage(
                   titleWidth = 500),
   
   dashboardSidebar(
+    sidebarUserPanel(
+      h4('Krishnan Chander')
+    ),
+    
     sidebarMenu(
-      menuItem('Time Trends by Metro Area',
-               tabName = 'timeTrends'),
-      menuItem('Correlations',
-               tabName = 'correlations'),
-      menuItem('Aggregate Statistics',
-               tabName = 'barPlot'),
+      menuItem(
+        'Time Trends by Metro Area',
+        tabName = 'timeTrends'),
+      menuItem(
+        'Correlations',
+        tabName = 'correlations'),
+      menuItem(
+        'Aggregate Statistics',
+        tabName = 'barPlot'),
       selected = TRUE
     )
   ),
