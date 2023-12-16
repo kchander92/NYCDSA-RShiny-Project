@@ -134,8 +134,9 @@ optionsBoxCorrs <- box(
 
 dashboardPage(
   
-  dashboardHeader(title="Housing Supply and Demand in the USA's Sun Belt",
-                  titleWidth = 500),
+  dashboardHeader(
+    title="Housing Supply and Demand in the USA's Sun Belt",
+    titleWidth = 500),
   
   dashboardSidebar(
     sidebarUserPanel(
@@ -164,9 +165,10 @@ dashboardPage(
           tabName = 'timeTrends',
           box(
             plotOutput('timeTrends'),
-            radioButtons(inputId = 'Metric',
-                         label = 'Housing Metric',
-                         choices = col_choices)
+            radioButtons(
+              inputId = 'Metric',
+              label = 'Housing Metric',
+              choices = col_choices)
           ),
           optionsBoxTrend
         ),
@@ -204,7 +206,7 @@ dashboardPage(
               column(
                 width = 6,
                 radioButtons(
-                  inputId = 'Metric',
+                  inputId = 'aggMetric',
                   label = 'Metric',
                   choices = col_choices
                 )
@@ -225,7 +227,7 @@ dashboardPage(
               column(
                 width = 4,
                 selectizeInput(
-                  inputId = 'month',
+                  inputId = 'Month',
                   label = 'Month',
                   choices = unique(sunbelt_housing$Month)
                 )
@@ -234,7 +236,7 @@ dashboardPage(
               column(
                 width = 4,
                 selectizeInput(
-                  inputId = 'year',
+                  inputId = 'Year',
                   label = 'Year',
                   choices = unique(sunbelt_housing$Year)
                 )
@@ -255,4 +257,3 @@ dashboardPage(
     )
   )
 )
-
