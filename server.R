@@ -32,29 +32,23 @@ function(input, output, session) {
           Period.End <= input$Dates2[2]) 
   })
   
-  aggregateFunc <- reactive({
-    switch(
-      input$Statistic,
-      'Mean' = mean,
-      'Median' = median,
-      'Maximum' = max,
-      'Minimum' = min,
-      'Range' = range,
-      'Standard Deviation' = sd)
-  })
-  
   aggregateStats <- reactive({
     switch(
       input$timeFrame,
       'Month' = sunbelt_housing %>%
-        select(
-          Month, Year, Metro.City,
-          adjusted_average_new_listings, adjusted_average_new_listings_yoy,
-          adjusted_average_homes_sold, adjusted_average_homes_sold_yoy,
-          Median.Sale.Price, Median.Sale.Price.Yoy) %>%
-        filter(Month == input$Month & Year == input$Year) %>%
-        group_by(Metro.City) %>%
-        summarise())
+        filter(Month == input$Month & Year == input$Year),
+      'Year' = sunbelt_housing %>%
+        filter(Year == input$Year)) %>%
+      select(Month, Year, Metro.City, Metric = input$aggMetric) %>%
+      group_by(Metro.City) %>%
+      summarise(Stat = switch(
+        input$Statistic,
+        'Mean' = mean,
+        'Median' = median,
+        'Maximum' = max,
+        'Minimum' = min,
+        'Standard Deviation' = sd)(Metric)) %>%
+      arrange(desc(Stat))
   })
   
   output$timeTrends <- renderPlot({
@@ -83,6 +77,13 @@ function(input, output, session) {
   })
   
   output$barPlot <- renderPlot({
-    
+    aggregateStats() %>%
+      ggplot(aes(x = reorder(Metro.City, -Stat), y = Stat)) +
+      geom_col(aes(fill = Metro.City), show.legend = FALSE) +
+      labs(x = 'Metro City', y = input$Statistic,
+           title = paste(names(col_choices)[col_choices == input$aggMetric],
+                         input$Statistic, sep = ', ')) +
+      theme(plot.title = element_text(hjust = 0.5),
+            axis.text.x = element_text(angle = 30, vjust = 0.6))
   })
 }

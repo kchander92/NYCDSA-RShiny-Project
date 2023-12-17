@@ -218,7 +218,7 @@ dashboardPage(
                   inputId = 'Statistic',
                   label = 'Statistic',
                   choices = c('Mean', 'Median', 'Maximum', 'Minimum',
-                              'Range', 'Standard Deviation')
+                              'Standard Deviation')
                 )
               )
             ),
@@ -250,7 +250,8 @@ dashboardPage(
                   choices = c('Month', 'Year')
                 )
               )
-            )
+            ),
+            width = 8
           )
         )
       )
