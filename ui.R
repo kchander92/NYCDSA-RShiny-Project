@@ -36,7 +36,7 @@ optionsBoxTrend <- box(
   
   fluidRow(
     column(
-      width=4,
+      width=3,
       checkboxGroupInput(
         inputId = 'Metro.CityCA1',
         label = 'California',
@@ -44,7 +44,7 @@ optionsBoxTrend <- box(
                                 Metro.State == 'CA')$Metro.City))),
     
     column(
-      width=4,
+      width=3,
       checkboxGroupInput(
         inputId = 'Metro.CityFL1',
         label = 'Florida',
@@ -52,7 +52,7 @@ optionsBoxTrend <- box(
                                 Metro.State == 'FL')$Metro.City))),
     
     column(
-      width=4,
+      width=3,
       checkboxGroupInput(
         inputId = 'Metro.CityTX1',
         label = 'Texas',
@@ -102,7 +102,7 @@ optionsBoxCorrs <- box(
   
   fluidRow(
     column(
-      width=4,
+      width=3,
       checkboxGroupInput(
         inputId = 'Metro.CityCA2',
         label = 'California',
@@ -110,7 +110,7 @@ optionsBoxCorrs <- box(
                                 Metro.State == 'CA')$Metro.City))),
     
     column(
-      width=4,
+      width=3,
       checkboxGroupInput(
         inputId = 'Metro.CityFL2',
         label = 'Florida',
@@ -118,7 +118,7 @@ optionsBoxCorrs <- box(
                                 Metro.State == 'FL')$Metro.City))),
     
     column(
-      width=4,
+      width=3,
       checkboxGroupInput(
         inputId = 'Metro.CityTX2',
         label = 'Texas',
