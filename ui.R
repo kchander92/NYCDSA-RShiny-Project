@@ -202,6 +202,8 @@ dashboardPage(
           box(
             plotOutput('barPlot'),
             
+            plotOutput('violinPlot'),
+            
             fluidRow(
               column(
                 width = 6,

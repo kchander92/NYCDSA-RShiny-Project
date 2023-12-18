@@ -51,6 +51,11 @@ function(input, output, session) {
       arrange(desc(Stat))
   })
   
+  violinSubset <- reactive({
+    sunbelt_housing %>%
+      select(Metro.City, Metric = input$aggMetric)
+  })
+  
   output$timeTrends <- renderPlot({
     filteredByCityTrend() %>% 
       ggplot(aes(x = filteredByCityTrend()[['Period.End']],
@@ -83,6 +88,16 @@ function(input, output, session) {
       labs(x = 'Metro City', y = input$Statistic,
            title = paste(names(col_choices)[col_choices == input$aggMetric],
                          input$Statistic, sep = ', ')) +
+      theme(plot.title = element_text(hjust = 0.5),
+            axis.text.x = element_text(angle = 30, vjust = 0.6))
+  })
+  
+  output$violinPlot <- renderPlot({
+    violinSubset() %>%
+      ggplot(aes(x = Metro.City, y = Metric)) +
+      geom_violin() +
+      labs(x = 'Metro City', y = names(col_choices)[col_choices == input$aggMetric],
+           title = names(col_choices)[col_choices == input$aggMetric]) +
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 30, vjust = 0.6))
   })
