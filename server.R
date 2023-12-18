@@ -53,7 +53,7 @@ function(input, output, session) {
   
   violinSubset <- reactive({
     sunbelt_housing %>%
-      select(Metro.City, Metric = input$aggMetric)
+      select(Metro.City, Metric = input$violinMetric)
   })
   
   output$timeTrends <- renderPlot({
@@ -96,8 +96,8 @@ function(input, output, session) {
     violinSubset() %>%
       ggplot(aes(x = Metro.City, y = Metric)) +
       geom_violin() +
-      labs(x = 'Metro City', y = names(col_choices)[col_choices == input$aggMetric],
-           title = names(col_choices)[col_choices == input$aggMetric]) +
+      labs(x = 'Metro City', y = names(col_choices)[col_choices == input$violinMetric],
+           title = names(col_choices)[col_choices == input$violinMetric]) +
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 30, vjust = 0.6))
   })

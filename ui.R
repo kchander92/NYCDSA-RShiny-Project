@@ -146,13 +146,20 @@ dashboardPage(
     sidebarMenu(
       menuItem(
         'Time Trends by Metro Area',
-        tabName = 'timeTrends'),
+        tabName = 'timeTrends'
+      ),
+      menuItem(
+        'Distributions by Metro Area',
+        tabName = 'violinPlot'
+      ),
       menuItem(
         'Correlations',
-        tabName = 'correlations'),
+        tabName = 'correlations'
+      ),
       menuItem(
         'Aggregate Statistics',
-        tabName = 'barPlot'),
+        tabName = 'barPlot'
+      ),
       selected = TRUE
     )
   ),
@@ -171,6 +178,16 @@ dashboardPage(
               choices = col_choices)
           ),
           optionsBoxTrend
+        ),
+        tabItem(
+          tabName = 'violinPlot',
+          box(
+            plotOutput('violinPlot'),
+            radioButtons(
+              inputId = 'violinMetric',
+              label = 'Housing Metric',
+              choices = col_choices)
+          )
         ),
         
         tabItem(
@@ -201,8 +218,6 @@ dashboardPage(
           tabName = 'barPlot',
           box(
             plotOutput('barPlot'),
-            
-            plotOutput('violinPlot'),
             
             fluidRow(
               column(
