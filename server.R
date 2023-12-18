@@ -56,6 +56,16 @@ function(input, output, session) {
       select(Metro.City, Metric = input$violinMetric)
   })
   
+  corrMatrix <- reactive({
+    corrs = data.frame(cor(sunbelt_housing %>% select(Period.End, Metro.City,
+                                                      Metric = input$corrMetric) %>%
+                             pivot_wider(names_from = Metro.City, values_from = Metric) %>%
+                             select(-Period.End)), row.names = NULL)
+    corrs[corrs < input$minThreshold] = 0
+    cbind(City = colnames(corrs), corrs) %>%
+      pivot_longer(cols = colnames(corrs), names_to = 'City2', values_to = 'Corr')
+  })
+  
   output$timeTrends <- renderPlot({
     filteredByCityTrend() %>% 
       ggplot(aes(x = filteredByCityTrend()[['Period.End']],
@@ -100,5 +110,15 @@ function(input, output, session) {
            title = names(col_choices)[col_choices == input$violinMetric]) +
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 30, vjust = 0.6))
+  })
+  
+  output$corrHeatmap <- renderPlot({
+    corrMatrix() %>%
+      ggplot(aes(x = City, y = City2, fill = Corr)) + geom_tile() +
+      labs(x = 'Metro City', y = 'Metro City',
+           title = paste(names(col_choices)[col_choices == input$corrMetric],
+                         'Correlation Heat Map')) +
+      theme(plot.title = element_text(hjust = 0.5),
+            axis.text.x = element_text(angle = 60, vjust = 0.6))
   })
 }

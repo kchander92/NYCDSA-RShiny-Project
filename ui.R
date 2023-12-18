@@ -31,8 +31,8 @@ optionsBoxTrend <- box(
         inputId = 'Metro.CityNV1',
         label = 'Nevada',
         choices = unique(filter(sunbelt_housing,
-                                Metro.State == 'NV')$Metro.City)))),
-  
+                                Metro.State == 'NV')$Metro.City)))
+  ),
   
   fluidRow(
     column(
@@ -57,7 +57,8 @@ optionsBoxTrend <- box(
         inputId = 'Metro.CityTX1',
         label = 'Texas',
         choices = unique(filter(sunbelt_housing,
-                                Metro.State == 'TX')$Metro.City)))),
+                                Metro.State == 'TX')$Metro.City)))
+  ),
   
   dateRangeInput(
     inputId = 'Dates1',
@@ -97,8 +98,8 @@ optionsBoxCorrs <- box(
         inputId = 'Metro.CityNV2',
         label = 'Nevada',
         choices = unique(filter(sunbelt_housing,
-                                Metro.State == 'NV')$Metro.City)))),
-  
+                                Metro.State == 'NV')$Metro.City)))
+  ),
   
   fluidRow(
     column(
@@ -123,7 +124,8 @@ optionsBoxCorrs <- box(
         inputId = 'Metro.CityTX2',
         label = 'Texas',
         choices = unique(filter(sunbelt_housing,
-                                Metro.State == 'TX')$Metro.City)))),
+                                Metro.State == 'TX')$Metro.City)))
+  ),
   
   dateRangeInput(
     inputId = 'Dates2',
@@ -160,6 +162,10 @@ dashboardPage(
         'Aggregate Statistics',
         tabName = 'barPlot'
       ),
+      menuItem(
+        'Temporal Correlations',
+        tabName = 'corrHeatmap'
+      ),
       selected = TRUE
     )
   ),
@@ -186,7 +192,8 @@ dashboardPage(
             radioButtons(
               inputId = 'violinMetric',
               label = 'Housing Metric',
-              choices = col_choices)
+              choices = col_choices),
+            width = 8
           )
         ),
         
@@ -267,6 +274,23 @@ dashboardPage(
                   choices = c('Month', 'Year')
                 )
               )
+            ),
+            width = 8
+          )
+        ),
+        
+        tabItem(
+          tabName = 'corrHeatmap',
+          box(
+            plotOutput('corrHeatmap'),
+            radioButtons(
+              inputId = 'corrMetric',
+              label = 'Housing Metric',
+              choices = col_choices),
+            sliderInput(
+              inputId = 'minThreshold',
+              label = 'Minimum Threshold',
+              min = 0, max = 1, value = 0.5
             ),
             width = 8
           )
