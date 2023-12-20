@@ -155,7 +155,11 @@ dashboardPage(
         tabName = 'violinPlot'
       ),
       menuItem(
-        'Correlations',
+        'Distributions by Interest Rate',
+        tabName = 'interestRateDist'
+      ),
+      menuItem(
+        'Correlations Between Metrics',
         tabName = 'correlations'
       ),
       menuItem(
@@ -194,6 +198,31 @@ dashboardPage(
               label = 'Housing Metric',
               choices = col_choices),
             width = 8
+          )
+        ),
+        
+        tabItem(
+          tabName = 'interestRateDist',
+          box(
+            plotOutput('interestRateDist'),
+            fluidRow(
+              column(
+                width = 6,
+                selectizeInput(
+                  inputId = 'MetroCity',
+                  label = 'Metro City',
+                  choices = unique(sunbelt_housing$Metro.City),
+                  selected = TRUE
+                )
+              ),
+              column(
+                width = 6,
+                radioButtons(
+                  inputId = 'interestMetric',
+                  label = 'Housing Metric',
+                  choices = col_choices)
+              )
+            )
           )
         ),
         

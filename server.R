@@ -7,7 +7,7 @@ function(input, output, session) {
   filteredByCityTrend <- reactive({
     sunbelt_housing %>%
       select(
-        Period.End, Metro.City,
+        Period.End, Metro.City, interest.rate.range,
         Metric = input$Metric) %>%
       filter(
         Metro.City %in%
@@ -21,7 +21,7 @@ function(input, output, session) {
   filteredByCityCorrs <- reactive({
     sunbelt_housing %>%
       select(
-        Period.End, Metro.City,
+        Period.End, Metro.City, interest.rate.range,
         xMetric = input$xMetric, yMetric = input$yMetric) %>%
       filter(
         Metro.City %in%
@@ -66,11 +66,17 @@ function(input, output, session) {
       pivot_longer(cols = colnames(corrs), names_to = 'City2', values_to = 'Corr')
   })
   
+  interestRateData <- reactive({
+    sunbelt_housing %>%
+      filter(Metro.City == input$MetroCity) %>%
+      select(interest.rate.range, Metric = input$interestMetric)
+  })
+  
   output$timeTrends <- renderPlot({
     filteredByCityTrend() %>% 
       ggplot(aes(x = filteredByCityTrend()[['Period.End']],
                  y = Metric)) +
-      geom_line(aes(color=Metro.City)) +
+      geom_line(aes(color = Metro.City)) +
       labs(x='Period End Date',
            y=names(col_choices)[col_choices == input$Metric],
            title=paste(names(col_choices)[col_choices == input$Metric],
@@ -81,7 +87,7 @@ function(input, output, session) {
   output$correlations <- renderPlot({
     filteredByCityCorrs() %>% 
       ggplot(aes(x = xMetric, y = yMetric)) +
-      geom_point(aes(color=Metro.City)) +
+      geom_point(aes(color = Metro.City)) +
       labs(x=names(col_choices)[col_choices == input$xMetric],
            y=names(col_choices)[col_choices == input$yMetric],
            title=paste(names(col_choices)[col_choices == input$yMetric],
@@ -118,6 +124,17 @@ function(input, output, session) {
       labs(x = 'Metro City', y = 'Metro City',
            title = paste(names(col_choices)[col_choices == input$corrMetric],
                          'Correlation Heat Map')) +
+      theme(plot.title = element_text(hjust = 0.5),
+            axis.text.x = element_text(angle = 60, vjust = 0.6))
+  })
+  
+  output$interestRateDist <- renderPlot({
+    interestRateData() %>%
+      ggplot(aes(x = interest.rate.range, y = Metric)) + geom_boxplot() +
+      labs(x = 'Interest Rate Range',
+           y = names(col_choices)[col_choices == input$interestMetric],
+           title = paste(names(col_choices)[col_choices == input$interestMetric],
+                         'by Interest Rate')) +
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 60, vjust = 0.6))
   })
