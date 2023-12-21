@@ -103,7 +103,11 @@ function(input, output, session) {
       geom_col(aes(fill = Metro.City), show.legend = FALSE) +
       labs(x = 'Metro City', y = input$Statistic,
            title = paste(names(col_choices)[col_choices == input$aggMetric],
-                         input$Statistic, sep = ', ')) +
+                         paste(switch(
+                           input$timeFrame, 'Month' = paste(input$Month, input$Year),
+                           'Year' = input$Year),
+                           input$Statistic),
+                         sep = ', ')) +
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 30, vjust = 0.6))
   })
@@ -134,6 +138,7 @@ function(input, output, session) {
       labs(x = 'Interest Rate Range',
            y = names(col_choices)[col_choices == input$interestMetric],
            title = paste(names(col_choices)[col_choices == input$interestMetric],
+                         'in', input$MetroCity,
                          'by Interest Rate')) +
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 60, vjust = 0.6))
