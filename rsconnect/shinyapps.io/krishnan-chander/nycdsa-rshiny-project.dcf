@@ -1,0 +1,10 @@
+name: nycdsa-rshiny-project
+title:
+username: krishnan-chander
+account: krishnan-chander
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10853255
+bundleId: 8091295
+url: https://krishnan-chander.shinyapps.io/nycdsa-rshiny-project/
+version: 1
