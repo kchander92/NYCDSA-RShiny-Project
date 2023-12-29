@@ -166,10 +166,6 @@ dashboardPage(
         'Aggregate Statistics',
         tabName = 'barPlot'
       ),
-      menuItem(
-        'Temporal Correlations',
-        tabName = 'corrHeatmap'
-      ),
       selected = TRUE
     )
   ),
@@ -303,23 +299,6 @@ dashboardPage(
                   choices = c('Month', 'Year')
                 )
               )
-            ),
-            width = 8
-          )
-        ),
-        
-        tabItem(
-          tabName = 'corrHeatmap',
-          box(
-            plotOutput('corrHeatmap'),
-            radioButtons(
-              inputId = 'corrMetric',
-              label = 'Housing Metric',
-              choices = col_choices),
-            sliderInput(
-              inputId = 'minThreshold',
-              label = 'Minimum Threshold',
-              min = 0, max = 1, value = 0.5
             ),
             width = 8
           )

@@ -5,6 +5,8 @@ account: krishnan-chander
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10853255
-bundleId: 8091295
+bundleId: 8091773
 url: https://krishnan-chander.shinyapps.io/nycdsa-rshiny-project/
 version: 1
+asMultiple: FALSE
+asStatic: FALSE

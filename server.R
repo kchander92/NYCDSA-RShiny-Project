@@ -121,17 +121,7 @@ function(input, output, session) {
       theme(plot.title = element_text(hjust = 0.5),
             axis.text.x = element_text(angle = 30, vjust = 0.6))
   })
-  
-  output$corrHeatmap <- renderPlot({
-    corrMatrix() %>%
-      ggplot(aes(x = City, y = City2, fill = Corr)) + geom_tile() +
-      labs(x = 'Metro City', y = 'Metro City',
-           title = paste(names(col_choices)[col_choices == input$corrMetric],
-                         'Correlation Heat Map')) +
-      theme(plot.title = element_text(hjust = 0.5),
-            axis.text.x = element_text(angle = 60, vjust = 0.6))
-  })
-  
+
   output$interestRateDist <- renderPlot({
     interestRateData() %>%
       ggplot(aes(x = interest.rate.range, y = Metric)) + geom_boxplot() +
